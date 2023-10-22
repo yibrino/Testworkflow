@@ -40,6 +40,8 @@ jobs:
         
     - name: install dependencies
       run: pip install build
+    - name: Install dependencies
+      run: pip install -r  file.whl
       
     - name: Build package
       run: python3 -m build
