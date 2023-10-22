@@ -1,0 +1,10 @@
+setup.py
+intermediate_test_app/__init__.py
+intermediate_test_app/application.py
+intermediate_test_dummy_package.egg-info/PKG-INFO
+intermediate_test_dummy_package.egg-info/SOURCES.txt
+intermediate_test_dummy_package.egg-info/dependency_links.txt
+intermediate_test_dummy_package.egg-info/top_level.txt
+tests/test_fast.py
+tests/test_slow_1.py
+tests/test_slow_2.py
