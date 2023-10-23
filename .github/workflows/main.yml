@@ -73,7 +73,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run ${{ matrix.test }}
-        run: python -m unittest tests/${{ matrix.test }}
+        run: python -m unittest exercise_1/tests/${{ matrix.test }}
 
   # deploy:
   #   name: Deploy
